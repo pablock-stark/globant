@@ -1,6 +1,6 @@
 # Coding Test
 
- This repo contains code for interview based on Data Engineering Code Challenge.
+This repo contains code for interview based on Data Engineering Code Challenge.
 
 ## Table of Contents
 
@@ -10,8 +10,8 @@
 ## Data Source <a id="data_source"></a>
 
 Data source for this exercise are csv files found in <strong>files</strong> folder:
-<li>departments.csv</li>
-<li>hired_employees.csv</li>
+<li>departments</li>
+<li>hired_employees</li>
 <li>jobs</li>
 
 ## Data Pipeline Design <a id="data_pipeline_design"></a>
@@ -20,4 +20,6 @@ Files mentioned above are in one AWS S3 Bucket. Transformation occurs with flask
 
 <img src="img/coding_test.jpg">
 
+## Next steps for deployment
+App can be containerized for cloud deployment using Kubernetes in any public cloud such as Google Kubernetes Engine or AWS. 
 
