@@ -1,6 +1,6 @@
-# Globant Coding Test
+# Coding Test
 
- This repo contains code for interview based on Globant's Data Engineering Coding Challenge. This file can be reviewed in this link.
+ This repo contains code for interview based on Data Engineering Code Challenge.
 
 ## Table of Contents
 
@@ -16,7 +16,8 @@ Data source for this exercise are csv files found in <strong>files</strong> fold
 
 ## Data Pipeline Design <a id="data_pipeline_design"></a>
 
-Files mentioned above are in one AWS S3 Bucket. Transformation occurs with flask's endpoints to export these files to Google Bigquery which is data sink for this exercise.
+Files mentioned above are in one AWS S3 Bucket. Transformation occurs with flask's endpoints to export these files to Google Bigquery which is data sink for this case.
 
 <img src="img/coding_test.jpg">
+
 
