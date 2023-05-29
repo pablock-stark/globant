@@ -19,5 +19,5 @@ Data source for this exercise are csv files:
 
 Files mentioned above are in one AWS S3 Bucket. Transformation occurs with flask's endpoints to export these files to Google Bigquery which is data sink for this exercise.
 
-
+<img src="img/coding_test.jpg">
 
