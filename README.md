@@ -18,6 +18,6 @@ Data source for this exercise are csv files found in <strong>files</strong> fold
 
 Files mentioned above are located in one AWS S3 Bucket. Transformation occurs with flask's endpoints to export these csv files to Google Bigquery which is data sink for this case.
 
-Also there are two endpoints for reading data from Bigquery tables with required layout in section 2 of coding exercise. These are <string>report_hired_employees</strong> and <strong>report_higher_hires</strong>.
+Also there are two endpoints for reading data from Bigquery tables with required layout in section 2 of coding exercise. These are <strong>report_hired_employees</strong> and <strong>report_higher_hires</strong>.
 
 <img src="img/coding_test.jpg">
