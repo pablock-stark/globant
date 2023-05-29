@@ -16,7 +16,7 @@ Data source for this exercise are csv files found in <strong>files</strong> fold
 
 ## Data Pipeline Design <a id="data_pipeline_design"></a>
 
-Files mentioned above are located in one AWS S3 Bucket. Transformation occurs with flask's endpoints to export these csv files to Google Bigquery which is data sink for this case.
+Files mentioned above are located in one AWS S3 Bucket. Transformation required in section 1 occurs with flask's endpoints to export these csv files to Google Bigquery which is data sink for this case.
 
 Also there are two endpoints for reading data from Bigquery tables with required layout in section 2 of coding exercise. These are <strong>report_hired_employees</strong> and <strong>report_higher_hires</strong>.
 
