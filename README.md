@@ -20,6 +20,4 @@ Files mentioned above are in one AWS S3 Bucket. Transformation occurs with flask
 
 <img src="img/coding_test.jpg">
 
-## Next steps for deployment
-App can be containerized for cloud deployment using Kubernetes in any public cloud such as Google Kubernetes Engine or AWS. 
 
